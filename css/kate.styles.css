@@ -1,0 +1,52 @@
+h2,h3,h4,h5,h6{
+    color:#2f5c89;
+    text-shadow: white 1px 1px 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+
+}
+
+.navbar-brand{
+    color:#13889a;
+    font-family: "Dancing Script", cursive;
+
+}
+
+
+@media screen and (min-width:1050px) {
+    .kate-education-content-section{
+        width:fit-content;
+        ol{
+            display: flex;
+            li{
+                width:50%;
+            }
+            ul{
+                width:100%;
+                li{
+                    width:90%;
+                }
+            }
+        }
+
+    }
+}
+
+.header-white-border{
+    border: solid white 2px;
+    padding: 20px;
+}
+
+.kate-intro-style-3{
+
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    
+    h3{
+        color:black
+    }
+}
